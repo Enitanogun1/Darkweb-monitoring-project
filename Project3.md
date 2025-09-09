@@ -1,7 +1,7 @@
 # Integrating Dark Web Alerts with SIEM Systems
 
 ## Introduction
-In this project, you will learn how to integrate dark web monitoring alerts with a Security Information and Event Management (SIEM) system. SIEM systems help in aggregating and analyzing security data from various sources, enabling real-time threat detection and response. You will use SpiderFoot for dark web monitoring and integrate its alerts with a popular SIEM system such as Splunk.
+In this project, I learned how to integrate dark web monitoring alerts with a Security Information and Event Management (SIEM) system. SIEM systems help in aggregating and analyzing security data from various sources, enabling real-time threat detection and response. You will use SpiderFoot for dark web monitoring and integrate its alerts with a popular SIEM system such as Splunk.
 
 ## Lab Setup
 - **Operating System**: Linux (Ubuntu 20.04 recommended)
@@ -102,4 +102,4 @@ curl -k -u username:password https://localhost:8089/services/receivers/simple?in
 - SpiderFoot scan results will be automatically ingested into Splunk at regular intervals, keeping your SIEM system updated with the latest dark web monitoring data.
 
 ## Conclusion
-By completing these exercises, you have learned how to integrate dark web monitoring alerts with a SIEM system using SpiderFoot and Splunk. You configured SpiderFoot for dark web monitoring, exported scan results, set up data inputs and alerts in Splunk, and automated the data ingestion process. This hands-on experience equips you with practical skills in dark web intelligence gathering and integration with SIEM systems.
+By completing these exercises, I have learned how to integrate dark web monitoring alerts with a SIEM system using SpiderFoot and Splunk. You configured SpiderFoot for dark web monitoring, exported scan results, set up data inputs and alerts in Splunk, and automated the data ingestion process. This hands-on experience equips you with practical skills in dark web intelligence gathering and integration with SIEM systems.
